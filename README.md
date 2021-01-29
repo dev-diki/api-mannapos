@@ -18,21 +18,21 @@ Filter pencarian berdasarkan tanggal [fromDate], [toDate] dan [id_store],
 
 https://manna.asia/api2/report?key=ae8573e4cdd78b260699d8c328e39dc9&code=kb&code_merchant=kalbar&id=41&fromDate=2021-01-01&toDate=2021-01-29&id_store=JK15500378K
 
-![alt text](https://github.com/diki-hit/api-mannapos/blob/master/data/assets/detailASK4.png?raw=true "Detailnya...")
+![alt text](https://github.com/diki-hit/api-mannapos/blob/master/data/assets/detailask4.PNG?raw=true "Detailnya...")
 
 hasilnya dari hasil filter tanggal di atas tersebut tampilnya nama store HIT atau store yang lain sesuai id_store yang di inputkan dari tanggal 01-01-2021 sampai 29-01-2021...
 
-![alt text](https://github.com/diki-hit/api-mannapos/blob/master/data/assets/detailASK1.png?raw=true "Inputan")
+![alt text](https://github.com/diki-hit/api-mannapos/blob/master/data/assets/detailask1.PNG?raw=true "Inputan")
 
 contoh result yang di harapkan di program
 
-![alt text](https://github.com/diki-hit/api-mannapos/blob/master/data/assets/detailASK5.png?raw=true "Detailnya...")
+![alt text](https://github.com/diki-hit/api-mannapos/blob/master/data/assets/detailask5.PNG?raw=true "Detailnya...")
 
 NB. hasil result tersebut baru di masukkin manual yaitu tanggal 26, seharusnya yang tampil datanya mulai dari tanggal 01-01-2021 sampai 29-01-2021
 
 contoh data seperti ss dibawah ini...
 
-![alt text](https://github.com/diki-hit/api-mannapos/blob/master/data/assets/detailASK6.png?raw=true "Result Contoh")
+![alt text](https://github.com/diki-hit/api-mannapos/blob/master/data/assets/detailask6.PNG?raw=true "Result Contoh")
 
 ## Contoh Table Data hasil narik dari API Mannapos
 
@@ -89,36 +89,37 @@ result API :
 {
 "error": "false",
 "data": [
-{
-"id": "121597",
-"id_store": "JK15500378K",
-"transaction_code": "OD488210126040038",
-"transaction_date": "2021-01-01T14:01:51+07:00",
-"updated_at" : "2021-01-01T14:01:51+07:00",
-"is_lunas": true,
-"total_price_product": "3000",
-"total_tax": "500",
-"service_charge": "0",
-"total_price_sales": "5000",
-"total_quantity": "1.00",
-"grand_total": "5500",
-"metode": "TUNAI",
-"store": "HIT",
-"city": "Kota Pontianak",
-"business": "Jasa Layanan",
-"state": "Kalimantan Barat",
-"detail_product": [
-{
-"product_sku": "1234",
-"product": "Kecap",
-"category": "Hotel",
-"price_product": "3000",
-"price_sales": "5000",
-"quantity": "1.00"
-}
-]
-}
-]
+            {
+                "id": "121597",
+                "id_store": "JK15500378K",
+                "transaction_code": "OD488210126040038",
+                "transaction_date": "2021-01-01T14:01:51+07:00",
+                "updated_at" : "2021-01-01T14:01:51+07:00",
+                "is_lunas": true,
+                "total_price_product": "3000",
+                "total_tax": "500",
+                "service_charge": "0",
+                "total_price_sales": "5000",
+                "total_quantity": "1.00",
+                "grand_total": "5500",
+                "metode": "TUNAI",
+                "store": "HIT",
+                "city": "Kota Pontianak",
+                "business": "Jasa Layanan",
+                "state": "Kalimantan Barat",
+                "detail_product":
+                 [
+                    {
+                        "product_sku": "1234",
+                        "product": "Kecap",
+                        "category": "Hotel",
+                        "price_product": "3000",
+                        "price_sales": "5000",
+                        "quantity": "1.00"
+                    }
+                ]
+            }
+        ]
 }
 ```
 

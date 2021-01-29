@@ -4,7 +4,7 @@
 
 Kalau saya mau cari berdasarkan id_store gimana contoh : "id_store": "JK15500378K", hasilnya
 
-![Alt text](data/assets/detailASK3.png?raw=true "Hasilnya...")
+![alt text](https://github.com/diki-hit/api-mannapos/blob/master/data/assets/detailASK3.png?raw=true "Hasilnya...")
 
 ## Menampilkan data API Mannapos secara kesluruhan
 
@@ -18,25 +18,25 @@ Filter pencarian berdasarkan tanggal [fromDate], [toDate] dan [id_store],
 
 https://manna.asia/api2/report?key=ae8573e4cdd78b260699d8c328e39dc9&code=kb&code_merchant=kalbar&id=41&fromDate=2021-01-01&toDate=2021-01-29&id_store=JK15500378K
 
-![Alt text](data/assets/detailASK4.png?raw=true "Detailnya...")
+![alt text](https://github.com/diki-hit/api-mannapos/blob/master/data/assets/detailASK4.png?raw=true "Detailnya...")
 
 hasilnya dari hasil filter tanggal di atas tersebut tampilnya nama store HIT atau store yang lain sesuai id_store yang di inputkan dari tanggal 01-01-2021 sampai 29-01-2021...
 
-![Alt text](data/assets/detailASK1.png?raw=true "Inputan")
+![alt text](https://github.com/diki-hit/api-mannapos/blob/master/data/assets/detailASK1.png?raw=true "Inputan")
 
 contoh result yang di harapkan di program
 
-![Alt text](data/assets/detailASK5.png?raw=true "Detailnya...")
+![alt text](https://github.com/diki-hit/api-mannapos/blob/master/data/assets/detailASK5.png?raw=true "Detailnya...")
 
 NB. hasil result tersebut baru di masukkin manual yaitu tanggal 26, seharusnya yang tampil datanya mulai dari tanggal 01-01-2021 sampai 29-01-2021
 
 contoh data seperti ss dibawah ini...
 
-![Alt text](data/assets/detailASK6.png?raw=true "Result Contoh")
+![alt text](https://github.com/diki-hit/api-mannapos/blob/master/data/assets/detailASK6.png?raw=true "Result Contoh")
 
 ## Contoh Table Data hasil narik dari API Mannapos
 
-Contoh Table Data API Mannapos dari tanggal 01-01-2021 sampai 29-01-2021
+Contoh Table Data API Mannapos dari tanggal `01-01-2021 sampai 29-01-2021`
 
 | tanggal    |      lastsync       |  id_store   | t_pajak | t_penjualan | t_faktur |
 | ---------- | :-----------------: | :---------: | :-----: | :---------: | -------: |
@@ -76,15 +76,16 @@ ini untuk bulan januari dari tanggal 1 sampai tanggal 29 contohnya, seterusnya b
 
 tambahin parameter atau key
 
-- created_at[transaction_date] dan updated_at
-- is_lunas = true ["is_lunas": true]
+- `created_at[transaction_date]` dan `updated_at`
+- `is_lunas` = true ["is_lunas": true]
 
 untuk metode pembayaran "is_lunas" jika pembayaran secara "TUNAI" true, dan jika tidak bayar secara tunai ...contohnya nyicil
 
 id_store jadi acuan untuk get berdasarkan id atau nampilkan data cuma 1 data...
 
-result API
+result API :
 
+```
 {
 "error": "false",
 "data": [
@@ -119,6 +120,7 @@ result API
 }
 ]
 }
+```
 
 ## License
 

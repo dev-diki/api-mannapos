@@ -83,7 +83,7 @@ untuk metode pembayaran "is_lunas" jika pembayaran secara "TUNAI" true, dan jika
 
 id_store jadi acuan untuk get berdasarkan id atau nampilkan data cuma 1 data...
 
-result API :
+result API yang diharapkan :
 
 ```
 {

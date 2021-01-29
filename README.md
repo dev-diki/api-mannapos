@@ -4,7 +4,7 @@
 
 Kalau saya mau cari berdasarkan id_store gimana contoh : "id_store": "JK15500378K", hasilnya
 
-![alt text](https://github.com/diki-hit/api-mannapos/blob/master/data/assets/detailASK3.png?raw=true "Hasilnya...")
+![alt text](https://github.com/diki-hit/api-mannapos/blob/master/data/assets/detailASK3.PNG?raw=true "Hasilnya...")
 
 ## Menampilkan data API Mannapos secara kesluruhan
 
@@ -18,21 +18,21 @@ Filter pencarian berdasarkan tanggal [fromDate], [toDate] dan [id_store],
 
 https://manna.asia/api2/report?key=ae8573e4cdd78b260699d8c328e39dc9&code=kb&code_merchant=kalbar&id=41&fromDate=2021-01-01&toDate=2021-01-29&id_store=JK15500378K
 
-![alt text](https://github.com/diki-hit/api-mannapos/blob/master/data/assets/detailask4.PNG?raw=true "Detailnya...")
+![alt text](https://github.com/diki-hit/api-mannapos/blob/master/data/assets/detailASK4.PNG?raw=true "Detailnya...")
 
 hasilnya dari hasil filter tanggal di atas tersebut tampilnya nama store HIT atau store yang lain sesuai id_store yang di inputkan dari tanggal 01-01-2021 sampai 29-01-2021...
 
-![alt text](https://github.com/diki-hit/api-mannapos/blob/master/data/assets/detailask1.PNG?raw=true "Inputan")
+![alt text](https://github.com/diki-hit/api-mannapos/blob/master/data/assets/detailASK1.PNG?raw=true "Inputan")
 
 contoh result yang di harapkan di program
 
-![alt text](https://github.com/diki-hit/api-mannapos/blob/master/data/assets/detailask5.PNG?raw=true "Detailnya...")
+![alt text](https://github.com/diki-hit/api-mannapos/blob/master/data/assets/detailASK5.PNG?raw=true "Detailnya...")
 
 NB. hasil result tersebut baru di masukkin manual yaitu tanggal 26, seharusnya yang tampil datanya mulai dari tanggal 01-01-2021 sampai 29-01-2021
 
 contoh data seperti ss dibawah ini...
 
-![alt text](https://github.com/diki-hit/api-mannapos/blob/master/data/assets/detailask6.PNG?raw=true "Result Contoh")
+![alt text](https://github.com/diki-hit/api-mannapos/blob/master/data/assets/detailASK6.PNG?raw=true "Result Contoh")
 
 ## Contoh Table Data hasil narik dari API Mannapos
 
